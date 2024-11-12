@@ -6,6 +6,8 @@ import Presentation from './Presentation'
 import  Footer from './Footer'
 import Carte from  './Carte'
 import Contact from './Contact'
+import Collaborateurs from './Collaborateurs'
+import ExpertiseSection from './Expertise'
 
 function HomePage() {
   return (
@@ -13,6 +15,8 @@ function HomePage() {
         <Navbar />
         <HeroLayout />
         <Presentation />
+        <Collaborateurs />
+        <ExpertiseSection />
         <Chatbot />
         <Footer/>
     </div>

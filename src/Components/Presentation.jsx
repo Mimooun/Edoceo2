@@ -4,7 +4,7 @@ import plans from "../assets/images/plans.webp";
 
 const CompanyLaunch = () => {
   return (
-    <div className="company-launch-container">
+    <section className="company-launch-container">
       <div className="text-section">
         <h1>
           L'Excellence pédagogique
@@ -23,10 +23,13 @@ const CompanyLaunch = () => {
           Contact
         </a>
       </div>
+      
       <div className="image-section">
         <img src={plans} alt="Team discussing plans" className="team-image" />
       </div>
-    </div>
+       
+    </section>
+    
   );
 };
 

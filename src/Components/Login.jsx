@@ -15,12 +15,13 @@ const SlideNavbar = () => {
           <input className="inputs" type="text" name="tele" placeholder="Telephone" required />
           <input className="inputs" type="password" name="pswd" placeholder="Password" required />
           <button className='loginBtn' type="button">Inscription</button>
+          <div className='connectez-vous'>Vous avez un compte ?  <span>Connectez-vous</span> </div>
         </form>
       </div>
 
       <div className="login">
         <form>
-          <label className="inputs" htmlFor="chk" aria-hidden="true">Connexion</label>
+          {/* <label className="inputs" htmlFor="chk" aria-hidden="true">Connexion</label>  */}
           <input className="inputs" type="email" name="email" placeholder="Email" required />
           <input className="inputs" type="password" name="pswd" placeholder="Password" required />
           <button className='loginBtn' type="button">Connexion</button>

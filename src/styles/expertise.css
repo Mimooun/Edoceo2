@@ -1,0 +1,130 @@
+.expertise-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8fafb; 
+  }
+  
+  .expertise-section .text-content {
+    max-width: 50%;
+  }
+  
+  .expertise-section .text-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .expertise-section .text-content p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .expertise-section .text-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expertise-section .text-content li {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .expertise-section .image-content {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .expertise-section .green-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #5e8dfe; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .expertise-section .image-content img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; 
+    object-fit: cover;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 1024px) {
+    .expertise-section {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .expertise-section .text-content {
+      max-width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .expertise-section .text-content h1 {
+      font-size: 2rem;
+    }
+  
+    .expertise-section .text-content p, 
+    .expertise-section .text-content li {
+      font-size: 0.9rem;
+    }
+  
+    .expertise-section .image-content {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .expertise-section {
+      padding: 10px;
+    }
+  
+    .expertise-section .text-content {
+      max-width: 100%;
+    }
+  
+    .expertise-section .text-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .expertise-section .text-content p, 
+    .expertise-section .text-content li {
+      font-size: 0.85rem;
+    }
+  
+    .expertise-section .image-content {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .expertise-section .text-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .expertise-section .text-content p, 
+    .expertise-section .text-content li {
+      font-size: 0.8rem;
+    }
+  
+    .expertise-section .image-content {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  

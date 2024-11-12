@@ -11,3 +11,6 @@ body, html {
 * {
   box-sizing: border-box;
 }
+.max-width {
+  padding: 0px 110px;
+}

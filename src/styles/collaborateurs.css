@@ -1,0 +1,60 @@
+/* Base Styles */
+.collaborateurs .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.collaborateurs .container-colab {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+}
+
+.collaborateurs .container-colab img {
+    width: 100px; 
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .collaborateurs .container-colab {
+        grid-template-columns: repeat(2, 1fr); /* Show 2 columns on tablets */
+    }
+
+    .collaborateurs .title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .collaborateurs .container-colab img {
+        width: 80px; /* Slightly smaller image */
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .collaborateurs .container-colab {
+        grid-template-columns: 1fr; 
+    }
+
+    .collaborateurs .title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .collaborateurs .container-colab img {
+        width: 70px; 
+    }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+    .collaborateurs .title {
+        font-size: 18px;
+    }
+
+    .collaborateurs .container-colab img {
+        width: 60px;
+    }
+}

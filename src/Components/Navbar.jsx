@@ -97,9 +97,9 @@ function Navbar() {
       </div>
 
       {/* Button on the top-right corner */}
-        <Link to="/login" style={{ textDecoration: "none", listStyle: "none" }}>
+        {/* <Link to="/login" style={{ textDecoration: "none", listStyle: "none" }}>
             <img src={user} />
-        </Link>
+        </Link> */}
     </nav>
   );
 }

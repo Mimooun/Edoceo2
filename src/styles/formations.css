@@ -76,9 +76,9 @@
     transition: transform 0.3s;
 }
 
-.training-card:hover {
-    transform: translateY(-10px);
-}
+/* formaWrapper .page-container .image-section .training-card:hover {
+    transform: translateY(-5px);
+} */
 .training-image {
     width: 100%;
     height: 200px;
